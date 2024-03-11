@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP1 64-BIT"
+* "format" "HSP"
+* "rundate" "21:52:11 01/27/2024 "
+* "netlist" "./circuit_behavior/3stage.sp "
+* "runtitle" ".title project: three-stage opamp"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vin_ac =   0.            
++ vo_ac =   0.            
++ xac.1 =   0.            
++ xac.2 =   0.            
++ xac.1_vo =   0.            
++ xac.2_vo =   0.            
++ xac.1_gnd =   0.            
+***   END: Saved Operating Point ***                     

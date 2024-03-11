@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='G-2012.06-SP1 64-BIT'
+.TITLE '.title project: three-stage opamp'
+ gain             ugf              phase            temper            
+ alter#            
+   70.0654         7.337e+05       -110.0113          27.0000         
+ 1                 

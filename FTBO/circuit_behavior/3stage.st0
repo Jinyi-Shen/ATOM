@@ -1,0 +1,47 @@
+***** HSPICE -- G-2012.06-SP1 64-BIT (Aug 27 2012) RHEL64 ******
+ Input File: ./circuit_behavior/3stage.sp
+ init: begin read circuit files,  cpu clock=  3.00E-02
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/ad
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/ad
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/behave
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/bjt
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/burr_b
+                         rn
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/comlin
+                         ear
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/dio
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/fet
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/lin_te
+                         ch
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/pci
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/signet
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/ti
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/tline
+       option search = /apps/EDAs/hspice2012.06-sp1/hspice/parts/xilinx
+       option runlvl
+       option ingold =     0.00
+       option post =     2.00
+ init: end read circuit files,  cpu clock=  3.00E-02 peak memory=       118 mb
+ init: begin check errors,  cpu clock=  3.00E-02
+ init: end check errors,  cpu clock=  3.00E-02 peak memory=       119 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  3.00E-02
+       establish matrix -- done,  cpu clock=  3.00E-02 peak memory=       119 mb
+       re-order matrix -- done,  cpu clock=  3.00E-02 peak memory=       119 mb
+ init: end setup matrix,  cpu clock=  3.00E-02 peak memory=       119 mb
+ dcop: begin dcop,  cpu clock=  3.00E-02
+ dcop: end dcop,  cpu clock=  3.00E-02 peak memory=       119 mb                tot_iter=       3
+ output: ./circuit_behavior/3stage.ma0
+ sweep: ac ac0    begin, #sweeps= 901 cpu clock=  3.00E-02
+ ac: frequency=    1.02E+00
+ ac: frequency=    7.94E+00
+ ac: frequency=    6.31E+01
+ ac: frequency=    5.01E+02
+ ac: frequency=    3.98E+03
+ ac: frequency=    3.16E+04
+ ac: frequency=    2.51E+05
+ ac: frequency=    2.00E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.26E+08
+ ac: frequency=    1.00E+09
+ sweep: ac ac0    end,  cpu clock=  4.00E-02 peak memory=       119 mb
+>info:         ***** hspice job concluded

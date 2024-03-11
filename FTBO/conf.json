@@ -1,0 +1,7 @@
+{
+	"outdim" : 5,
+	"max_fun" : 160,
+	"init_points" : 10,
+	"circuit_dir": "./circuit_behavior",
+	"DVAE_model_dir": "../DVAE/results/results_t1600_e500/threeStageOpamp_1600_nz10_hs500_lr3_ff3_b16"
+}

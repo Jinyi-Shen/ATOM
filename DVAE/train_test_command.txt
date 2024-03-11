@@ -1,0 +1,2 @@
+python train.py --model DVAE --batch_size 16 --n_topo 1600 --lr 1e-3 --trainset_size 1600 --epochs 500 --save-interval 50 --nz 10 --hs 500 --gpu 0 --save-appendix _1600_nz10_hs500_lr3_ff3_b16
+python train.py --only-test --model DVAE --n_topo 1600 --epochs 500 --load_model_name 500 --save-appendix _1600_nz10_hs500_lr3_ff3_b16 --gpu 0
