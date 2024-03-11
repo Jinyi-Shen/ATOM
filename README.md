@@ -1,12 +1,16 @@
-## ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers
+# ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers
 
 This is the code repository for our proposed method ATOM that accompanys our paper ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers, which has been submitted to IEEE Transactions on Circuits and Systems II.
+
+## Prerequisites and Dependencies
 
 1. Install the circuit simulator hspice.
 
 2. Install the prerequisite packages in ```./requirements.txt``` via ```pip``` or ```conda```. We used Anaconda Python 3.7 for our experiments.
 
-3. The code related to continuous topological representation learning is under ```./DVAE/```.
+## Running Experiments
+
+1. The code related to continuous topological representation learning is under ```./DVAE/```.
 
 DVAE training:
 
@@ -18,7 +22,7 @@ DVAE testing:
 
 ```python train.py --only-test --model DVAE --n_topo 1600 --epochs 500 --load_model_name 500 --save-appendix _1600 --gpu 0```
 
-4. The code related to freeze-thaw Bayesian optimization is under ```./FTBO/```.
+2. The code related to freeze-thaw Bayesian optimization is under ```./FTBO/```.
 Start the optimization for spec1 with
 
 ```./run.sh```
