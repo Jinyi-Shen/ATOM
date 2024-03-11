@@ -12,22 +12,22 @@ This is the code repository for our proposed method ATOM that accompanys our pap
 
 1. The code related to continuous topological representation learning is under ```./DVAE/```.
 
-DVAE training:
+    DVAE training:
 
-```python train.py --model DVAE --batch_size 16 --n_topo 1600 --lr 1e-3 --trainset_size 1600 --epochs 500 --save-interval 50 --nz 10 --hs 500 --gpu 0 --save-appendix _1600```
+    ```python train.py --model DVAE --batch_size 16 --n_topo 1600 --lr 1e-3 --trainset_size 1600 --epochs 500 --save-interval 50 --nz 10 --hs 500 --gpu 0 --save-appendix _1600```
 
-The trained model is under ```./DVAE/results/```.
+    The trained model is under ```./DVAE/results/```.
 
-DVAE testing:
+    DVAE testing:
 
-```python train.py --only-test --model DVAE --n_topo 1600 --epochs 500 --load_model_name 500 --save-appendix _1600 --gpu 0```
+    ```python train.py --only-test --model DVAE --n_topo 1600 --epochs 500 --load_model_name 500 --save-appendix _1600 --gpu 0```
 
 2. The code related to freeze-thaw Bayesian optimization is under ```./FTBO/```.
-Start the optimization for spec1 with
 
-```./run.sh```
+    Start the optimization for spec1 with
 
-If optimization is required for spec2, please comment out the lines marked as "spec1" and uncomment the lines marked as "spec2" in ```./FTBO/TopoOpt_weibo.py``` and ```./FTBO/netlist_generator.py```
+    ```./run.sh```
 
-The topology optimization results for each run, including optimization time and the evaluation history of each visited topology, can be found under ```./FTBO/pickle/```.
+    If optimization is required for spec2, please comment out the lines marked as "spec1" and uncomment the lines marked as "spec2" in ```./FTBO/TopoOpt_weibo.py``` and ```./FTBO/netlist_generator.py```.
 
+    The topology optimization results for each run, including optimization time and the evaluation history of each visited topology, can be found under ```./FTBO/pickle/```.
