@@ -1,6 +1,6 @@
-## ATOM
+## ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers
 
-This directory contains the code for ATOM, an automatic topology synthesis framework for operational amplifiers.
+This is the code repository for our proposed method ATOM that accompanys our paper ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers, which has been submitted to IEEE Transactions on Circuits and Systems II.
 
 1. Install the circuit simulator hspice.
 
