@@ -1,6 +1,6 @@
 # ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers
 
-This is the code repository for our proposed method ATOM that accompanys our paper ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers, which has been submitted to IEEE Transactions on Circuits and Systems II.
+This is the code repository for our proposed method ATOM that accompanys our paper ATOM: An Automatic Topology Synthesis Framework for Operational Amplifiers, which has been submitted to IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems.
 
 ## Prerequisites and Dependencies
 
